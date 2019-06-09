@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width-device-width, initial-scale=1"/>
+    <meta name="application-name" content="Powerlifting Asturias"/>
+    <meta name="author" content="Pablo Fernández Peláez"/>
+    <meta name="description" content="Aplicación sobre Powerlifting en Asturias"/>
+    <meta name="keywords" content="Powerlifting, Asturias, competiciones, registro, añadir"/>
+    <link rel="stylesheet" type="text/css" href="../Estilo/estilo2.css"/>
+
+    <title>Registrar competiciones</title>
+
+
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a title="Menú principal"
+
+                   href="../index.html">Inicio</a></li>
+
+            <li><a title="Noticias de actualidad"
+
+                   href=" ../noticias.html">Noticias</a></li>
+
+            <li><a title="Calendario de competicionnes"
+
+                   href=" ../calendario.html">Calendario</a></li>
+
+            <li><a title="Reglas del Powerlifting"
+
+                   href=" ../reglas.html">Reglas</a></li>
+
+            <li><a title="Galería de imágenes"
+
+                   href=" ../galeria.html">Galería</a></li>
+
+            <li><a title="Récords y competiciones"
+
+                   href="../XML/records.xml">Récords</a></li>
+
+            <li><a title="Películas deportivas"
+
+                   href="peliculas.html">Películas deportivas</a></li>
+
+            <li><a title="Registrar competiciones"
+
+                   href="registrarCompeticiones.html">Registrar competiciones</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <table>
+        <tr>
+            <th>Nombre de la competición</th>
+            <th>Lugar</th>
+            <th>Fecha</th>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" id="nameField" name="nameField"/>
+            </td>
+            <td>
+                <input type="text" id="placeField" name="placeField"/>
+            </td>
+
+            <td>
+                <input type="text" id="dateField" name="dateField"/>
+            </td>
+        </tr>
+    </table>
+
+
+
+    <input type="button" id="add-button" value="Añadir competición" onclick="database.createTable()"/>
+
+</main>
+<script src="indexedDB.js"></script>
+</body>
+</html>

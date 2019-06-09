@@ -1,0 +1,41 @@
+<!ELEMENT records (record+)>
+        <!ELEMENT record (atleta, competicion)>
+            <!ELEMENT atleta (nombreAtleta, edadAtleta,
+                catPeso, catEdad, pesoLevantado, movimiento, asociacion)>
+                    <!ELEMENT asociacion (nombreAsociacion, localizacion, numMiembros, historias)>
+                    <!ELEMENT nombreAsociacion (#PCDATA)>
+                    <!ELEMENT localizacion (#PCDATA)>
+                    <!ELEMENT numMiembros (#PCDATA)>
+                    <!ELEMENT historias (historia+)>
+                        <!ELEMENT historia (#PCDATA)>
+            <!ELEMENT nombreAtleta (#PCDATA)>
+            <!ELEMENT edadAtleta (#PCDATA)>
+            <!ATTLIST atleta nacionalidadAtleta CDATA #REQUIRED>
+            <!ELEMENT catPeso (#PCDATA)>
+            <!ELEMENT cateEdad (#PCDATA)>
+            <!ELEMENT catEdad (#PCDATA)>
+            <!ELEMENT pesoLevantado (#PCDATA)>
+            <!ELEMENT movimiento (#PCDATA)>
+
+            <!ELEMENT competicion (nombreCompeticion, lugar, fecha, numParticipantes, patrocinadores, categorias)>
+                    <!ELEMENT nombreCompeticion (#PCDATA)>
+                    <!ELEMENT lugar (#PCDATA)>
+                    <!ELEMENT fecha (#PCDATA)>
+                    <!ELEMENT numParticipantes (#PCDATA)>
+                    <!ELEMENT patrocinadores (patrocinador+)>
+                    <!ELEMENT patrocinador (nombrePatrocinador, sede, director, importe)>
+                        <!ELEMENT nombrePatrocinador (#PCDATA)>
+                        <!ATTLIST patrocinador sector CDATA #REQUIRED>
+                        <!ELEMENT sede (#PCDATA)>
+                        <!ELEMENT director (nombreDirector, apellidoDirector, nacionalidadDirector)>
+                        <!ELEMENT nombreDirector (#PCDATA)>
+                        <!ELEMENT apellidoDirector (#PCDATA)>
+                        <!ELEMENT nacionalidadDirector (#PCDATA)>
+                        <!ELEMENT importe (#PCDATA)>
+                    <!ELEMENT categorias (categoria+)>
+                    <!ELEMENT categoria (nombreCategoria, puesto+)>
+                    <!ELEMENT nombreCategoria (#PCDATA)>
+                        <!ELEMENT puesto (premioEuros, titulo)>
+                            <!ELEMENT premioEuros (#PCDATA)>
+                            <!ELEMENT titulo (#PCDATA)>
+

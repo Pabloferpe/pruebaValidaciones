@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE records SYSTEM "C:\Users\Pablo\Desktop\SEW\ProyectoSEW\XML\XML-DTD\records.dtd">
+<records>
+    <record>
+        <atleta nacionalidadAtleta="Letonio">
+            <nombreAtleta>Konstantin Konstantinov</nombreAtleta>
+            <edadAtleta>40 años</edadAtleta>
+            <catPeso>+120 kg</catPeso>
+            <catEdad>Master</catEdad>
+            <pesoLevantado>411 kg</pesoLevantado>
+            <movimiento>Peso muerto</movimiento>
+            <asociacion>
+                <nombreAsociacion>RawLetonianPowerlifting</nombreAsociacion>
+                <localizacion>Letonia</localizacion>
+                <numMiembros>4</numMiembros>
+                <historias>
+                    <historia>
+                        RawLetonianPowerlifting fue fundado en 2004 para respaldar
+                        a atletas de Letonia que quieran competir en competiciones
+                        de powerlifting. El club ha ganado más de 30 títulos en los
+                        últimos 10 años.
+                    </historia>
+                </historias>
+            </asociacion>
+        </atleta>
+        <competicion>
+            <nombreCompeticion>WRPF Deadlift World Championship</nombreCompeticion>
+            <lugar>Rusia</lugar>
+            <fecha>24-05-2015</fecha>
+            <numParticipantes>20</numParticipantes>
+            <patrocinadores>
+                <patrocinador sector="Equipamiento powerlifting">
+                    <nombrePatrocinador>Rogue Fitness</nombrePatrocinador>
+                    <sede>EEUU</sede>
+                    <director>
+                        <nombreDirector>Nicolas</nombreDirector>
+                        <apellidoDirector>Wilfred</apellidoDirector>
+                        <nacionalidadDirector>Alemán</nacionalidadDirector>
+                    </director>
+                    <importe>1,000,000 €</importe>
+                </patrocinador>
+
+                <patrocinador sector="Suplementación">
+                    <nombrePatrocinador>Optimum Nutrition</nombrePatrocinador>
+                    <sede>EEUU</sede>
+                    <director>
+                        <nombreDirector>Michelle</nombreDirector>
+                        <apellidoDirector>Syvliakov</apellidoDirector>
+                        <nacionalidadDirector>Ruso</nacionalidadDirector>
+                    </director>
+                    <importe>780,000 €</importe>
+                </patrocinador>
+            </patrocinadores>
+
+
+            <categorias>
+                <categoria>
+                    <nombreCategoria>+120</nombreCategoria>
+                    <puesto>
+                        <premioEuros>2,000 €</premioEuros>
+                        <titulo>WRPF World Deadlift Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF World Deadlift SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>500 €</premioEuros>
+                        <titulo>WRPF World Deadlift Third</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>93</nombreCategoria>
+                    <puesto>
+                        <premioEuros>2,000 €</premioEuros>
+                        <titulo>WRPF World Deadlift Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF World Deadlift SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>500 €</premioEuros>
+                        <titulo>WRPF World Deadlift Third</titulo>
+                    </puesto>
+                </categoria>
+
+
+                <categoria>
+                    <nombreCategoria>83</nombreCategoria>
+                    <puesto>
+                        <premioEuros>2,000 €</premioEuros>
+                        <titulo>WRPF World Deadlift Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF World Deadlift SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>500 €</premioEuros>
+                        <titulo>WRPF World Deadlift Third</titulo>
+                    </puesto>
+                </categoria>
+
+            </categorias>
+
+
+        </competicion>
+    </record>
+
+    <record>
+        <atleta nacionalidadAtleta="Estadounidense">
+            <nombreAtleta>Dan Green</nombreAtleta>
+            <edadAtleta>38 años</edadAtleta>
+            <catPeso>110 kg</catPeso>
+            <catEdad>Master</catEdad>
+            <pesoLevantado>350 kg</pesoLevantado>
+            <movimiento>Peso muerto</movimiento>
+            <asociacion>
+                <nombreAsociacion>Boss Barbell Club</nombreAsociacion>
+                <localizacion>Estados Unidos</localizacion>
+                <numMiembros>20</numMiembros>
+                <historias>
+                    <historia>
+                        Boss Barbell Club es uno de los más reconocidos gimnasios
+                        de powerlifting en todo el mundo. Su dueño es el propio Dan Green,
+                        quien formó este gimnasio con el objetivo de expandir la cultura del powerlifting.
+                    </historia>
+
+                    <historia>
+                        Se encuenta en California, y comparte localización con otros conocidos
+                        gimnasios como son el Gold's Gym, el Zoo Culture...
+                    </historia>
+                </historias>
+            </asociacion>
+        </atleta>
+        <competicion>
+            <nombreCompeticion>WRPF American Championship</nombreCompeticion>
+            <lugar>Estados Unidos</lugar>
+            <fecha>04-08-2017</fecha>
+            <numParticipantes>60</numParticipantes>
+            <patrocinadores>
+                <patrocinador sector="Equipamiento powerlifting">
+                    <nombrePatrocinador>Eleiko</nombrePatrocinador>
+                    <sede>EEUU</sede>
+                    <director>
+                        <nombreDirector>Ed</nombreDirector>
+                        <apellidoDirector>Antoine</apellidoDirector>
+                        <nacionalidadDirector>Danés</nacionalidadDirector>
+                    </director>
+                    <importe>750,000 €</importe>
+                </patrocinador>
+            </patrocinadores>
+
+
+            <categorias>
+                <categoria>
+                    <nombreCategoria>+120</nombreCategoria>
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>WRPF American 120 Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF American 120 SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>500 €</premioEuros>
+                        <titulo>WRPF American 120 Third</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>110</nombreCategoria>
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>WRPF American 110 Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF American 110 SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>500 €</premioEuros>
+                        <titulo>WRPF American 110 Third</titulo>
+                    </puesto>
+                </categoria>
+
+
+                <categoria>
+                    <nombreCategoria>100</nombreCategoria>
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>WRPF American 100 Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF American 100 SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>500 €</premioEuros>
+                        <titulo>WRPF American 100 Third</titulo>
+                    </puesto>
+                </categoria>
+
+
+                <categoria>
+                    <nombreCategoria>93</nombreCategoria>
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>WRPF American 93 Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF American 93 SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>500 €</premioEuros>
+                        <titulo>WRPF American 93 Third</titulo>
+                    </puesto>
+                </categoria>
+
+            </categorias>
+
+
+        </competicion>
+    </record>
+
+    <record>
+        <atleta nacionalidadAtleta="Español">
+            <nombreAtleta>Jesús Varela</nombreAtleta>
+            <edadAtleta>45 años</edadAtleta>
+            <catPeso>83 kg</catPeso>
+            <catEdad>Senior</catEdad>
+            <pesoLevantado>225 kg</pesoLevantado>
+            <movimiento>Press de banca</movimiento>
+            <asociacion>
+                <nombreAsociacion>Bilbo Team</nombreAsociacion>
+                <localizacion>España</localizacion>
+                <numMiembros>10</numMiembros>
+                <historias>
+                    <historia>
+                        Bilbo Team es una pequeña asociación de powerlifting fundada por Jesús Varela en el año
+                        2015, en País Vasco, España.
+                    </historia>
+
+                    <historia>
+                        Se trata de un club bastante reducido y con un presupuesto modesto. Sin embargo, ostenta
+                        varios records en press de banca, siendo su fundador, Jesús Varela, también conocido como
+                        "Bilbo",
+                        su máximo exponente.
+                    </historia>
+                </historias>
+            </asociacion>
+        </atleta>
+        <competicion>
+            <nombreCompeticion>Arnold Classic Europe</nombreCompeticion>
+            <lugar>España</lugar>
+            <fecha>15-04-2018</fecha>
+            <numParticipantes>30</numParticipantes>
+            <patrocinadores>
+                <patrocinador sector="Equipamiento powerlifting">
+                    <nombrePatrocinador>Rogue Fitness</nombrePatrocinador>
+                    <sede>EEUU</sede>
+                    <director>
+                        <nombreDirector>Nicolas</nombreDirector>
+                        <apellidoDirector>Wilfred</apellidoDirector>
+                        <nacionalidadDirector>Alemán</nacionalidadDirector>
+                    </director>
+                    <importe>1,000,000 €</importe>
+                </patrocinador>
+
+                <patrocinador sector="Suplementación y alimentación">
+                    <nombrePatrocinador>Prozis</nombrePatrocinador>
+                    <sede>Francia</sede>
+                    <director>
+                        <nombreDirector>Shawn</nombreDirector>
+                        <apellidoDirector>Rhoden</apellidoDirector>
+                        <nacionalidadDirector>Estadounidense</nacionalidadDirector>
+                    </director>
+                    <importe>1,200,000 €</importe>
+                </patrocinador>
+
+                <patrocinador sector="Suplementación">
+                    <nombrePatrocinador>Amix</nombrePatrocinador>
+                    <sede>EEUU</sede>
+                    <director>
+                        <nombreDirector>Peter</nombreDirector>
+                        <apellidoDirector>Quill</apellidoDirector>
+                        <nacionalidadDirector>Estadounidense</nacionalidadDirector>
+                    </director>
+                    <importe>920,000 €</importe>
+                </patrocinador>
+
+
+                <patrocinador sector="Equipamiento powerlifting">
+                    <nombrePatrocinador>Strength Shop</nombrePatrocinador>
+                    <sede>Inglaterra</sede>
+                    <director>
+                        <nombreDirector>Mamdouh</nombreDirector>
+                        <apellidoDirector>Elssbiay</apellidoDirector>
+                        <nacionalidadDirector>Egipcio</nacionalidadDirector>
+                    </director>
+                    <importe>300,500 €</importe>
+                </patrocinador>
+
+            </patrocinadores>
+
+
+            <categorias>
+                <categoria>
+                    <nombreCategoria>+120</nombreCategoria>
+                    <puesto>
+                        <premioEuros>5,000 €</premioEuros>
+                        <titulo>Arnold Classic +120 Bench Press Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>3,500 €</premioEuros>
+                        <titulo>Arnold Classic +120 Bench Press SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>Arnold Classic +120 Bench Press Third</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>110</nombreCategoria>
+                    <puesto>
+                        <premioEuros>5,000 €</premioEuros>
+                        <titulo>Arnold Classic 110 Bench Press Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>3,500 €</premioEuros>
+                        <titulo>Arnold Classic 110 Bench Press SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>Arnold Classic 110 Bench Press Third</titulo>
+                    </puesto>
+                </categoria>
+
+
+                <categoria>
+                    <nombreCategoria>100</nombreCategoria>
+                    <puesto>
+                        <premioEuros>5,000 €</premioEuros>
+                        <titulo>Arnold Classic 100 Bench Press Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>3,500 €</premioEuros>
+                        <titulo>Arnold Classic 100 Bench Press SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>Arnold Classic 100 Bench Press Third</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>93</nombreCategoria>
+                    <puesto>
+                        <premioEuros>5,000 €</premioEuros>
+                        <titulo>Arnold Classic 93 Bench Press Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>3,500 €</premioEuros>
+                        <titulo>Arnold Classic 93 Bench Press SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>Arnold Classic 93 Bench Press Third</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>83</nombreCategoria>
+                    <puesto>
+                        <premioEuros>5,000 €</premioEuros>
+                        <titulo>Arnold Classic 83 Bench Press Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>3,500 €</premioEuros>
+                        <titulo>Arnold Classic 83 Bench Press SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>Arnold Classic 83 Bench Press Third</titulo>
+                    </puesto>
+                </categoria>
+
+            </categorias>
+
+
+        </competicion>
+    </record>
+
+
+    <record>
+        <atleta nacionalidadAtleta="Estadounidense">
+            <nombreAtleta>Stefi Cohen</nombreAtleta>
+            <edadAtleta>28 años</edadAtleta>
+            <catPeso>54 kg</catPeso>
+            <catEdad>Senior</catEdad>
+            <pesoLevantado>230 kg</pesoLevantado>
+            <movimiento>Peso muerto</movimiento>
+            <asociacion>
+                <nombreAsociacion>Hybrid Performance</nombreAsociacion>
+                <localizacion>Estados Unidos</localizacion>
+                <numMiembros>8</numMiembros>
+                <historias>
+                    <historia>
+                        El nombre de esta asociación surge del método de entrenamiento ideado y empleado por
+                        varios powerlifters en Estados Unidos, entre los que se encuentra la propia Stefi Cohen.
+                        El método en cuestión recibe el nombre de Hybrid Performance Method, y consiste en emplear
+                        técnicas de varias disciplinas deportivas en beneficio de los movimientos de powerlifting.
+                    </historia>
+
+                    <historia>
+                        Actualmente se ubica en Miami, Florida, y se está convirtiendo en una de las asociaciones de
+                        powerlifting más conocidas en el panorama norteamericano debido a los excelentes resultados
+                        de sus atletas.
+                    </historia>
+                </historias>
+            </asociacion>
+        </atleta>
+        <competicion>
+            <nombreCompeticion>APA Powerlifting Championship</nombreCompeticion>
+            <lugar>Estados Unidos</lugar>
+            <fecha>06-11-2017</fecha>
+            <numParticipantes>45</numParticipantes>
+            <patrocinadores>
+                <patrocinador sector="Equipamiento powerlifting">
+                    <nombrePatrocinador>Eleiko</nombrePatrocinador>
+                    <sede>EEUU</sede>
+                    <director>
+                        <nombreDirector>Ed</nombreDirector>
+                        <apellidoDirector>Antoine</apellidoDirector>
+                        <nacionalidadDirector>Danés</nacionalidadDirector>
+
+                    </director>
+                    <importe>750,000 €</importe>
+                </patrocinador>
+
+                <patrocinador sector="Ropa deportiva">
+                    <nombrePatrocinador>Beast Mode</nombrePatrocinador>
+                    <sede>Inglaterra</sede>
+                    <director>
+                        <nombreDirector>Phil</nombreDirector>
+                        <apellidoDirector>Heath</apellidoDirector>
+                        <nacionalidadDirector>Estadounidense</nacionalidadDirector>
+
+                    </director>
+                    <importe>100,000 €</importe>
+                </patrocinador>
+            </patrocinadores>
+
+
+            <categorias>
+                <categoria>
+                    <nombreCategoria>93</nombreCategoria>
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>APA 93 Deadlift Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>APA 93 Deadlift SubChampion</titulo>
+                    </puesto>
+
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>83</nombreCategoria>
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>APA 83 Deadlift Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>APA 83 Deadlift SubChampion</titulo>
+                    </puesto>
+
+                </categoria>
+
+
+                <categoria>
+                    <nombreCategoria>74</nombreCategoria>
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>APA 74 Deadlift Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>APA 74 Deadlift SubChampion</titulo>
+                    </puesto>
+
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>63</nombreCategoria>
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>APA 63 Deadlift Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>APA 63 Deadlift SubChampion</titulo>
+                    </puesto>
+
+                </categoria>
+
+
+                <categoria>
+                    <nombreCategoria>54</nombreCategoria>
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>APA 54 Deadlift Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>APA 54 Deadlift SubChampion</titulo>
+                    </puesto>
+
+                </categoria>
+
+            </categorias>
+
+
+        </competicion>
+    </record>
+
+    <record>
+        <atleta nacionalidadAtleta="Ruso">
+            <nombreAtleta>Kirill Sarychev</nombreAtleta>
+            <edadAtleta>30 años</edadAtleta>
+            <catPeso>+120 kg</catPeso>
+            <catEdad>Senior</catEdad>
+            <pesoLevantado>335 kg</pesoLevantado>
+            <movimiento>Press de banca</movimiento>
+            <asociacion>
+                <nombreAsociacion>Syberian Power</nombreAsociacion>
+                <localizacion>Rusia</localizacion>
+                <numMiembros>15</numMiembros>
+                <historias>
+                    <historia>
+                        Syberian Power surge como una asociación para acoger a todos aquellos powerlifters rusos
+                        que deseen competir al máximo nivel. Es un club bastante joven (2012) pero, sin embargo,
+                        entre sus filas se encuentran numerosos atletas con varios récords nacionales e internacionales.
+                    </historia>
+
+                    <historia>
+                        La sede principal del club se encuentra en Siberia, Rusia, concretamente en la región de
+                        Óblast de Chitá, ubicada en el extremo suroriental del país, haciendo frontera con China.
+                    </historia>
+                </historias>
+            </asociacion>
+        </atleta>
+        <competicion>
+            <nombreCompeticion>WRPF World Powerlifting Championship</nombreCompeticion>
+            <lugar>Rusia</lugar>
+            <fecha>17-09-2015</fecha>
+            <numParticipantes>32</numParticipantes>
+            <patrocinadores>
+                <patrocinador sector="Suplementación">
+                    <nombrePatrocinador>Nutritech</nombrePatrocinador>
+                    <sede>Alemania</sede>
+                    <director>
+                        <nombreDirector>Dennis</nombreDirector>
+                        <apellidoDirector>Wolf</apellidoDirector>
+                        <nacionalidadDirector>Estadounidense</nacionalidadDirector>
+
+                    </director>
+                    <importe>600,000 €</importe>
+                </patrocinador>
+
+                <patrocinador sector="Equipamiento powerlifting">
+                    <nombrePatrocinador>Metal</nombrePatrocinador>
+                    <sede>República Checa</sede>
+                    <director>
+                        <nombreDirector>Regan</nombreDirector>
+                        <apellidoDirector>Grimes</apellidoDirector>
+                        <nacionalidadDirector>Canadiense</nacionalidadDirector>
+
+                    </director>
+                    <importe>650,500 €</importe>
+                </patrocinador>
+
+
+                <patrocinador sector="Equipamiento powerlifting">
+                    <nombrePatrocinador>SBD</nombrePatrocinador>
+                    <sede>Estados Unidos</sede>
+                    <director>
+                        <nombreDirector>Laura</nombreDirector>
+                        <apellidoDirector>Stan</apellidoDirector>
+                        <nacionalidadDirector>Belga</nacionalidadDirector>
+
+                    </director>
+                    <importe>800,000 €</importe>
+                </patrocinador>
+
+            </patrocinadores>
+
+
+            <categorias>
+                <categoria>
+                    <nombreCategoria>+120</nombreCategoria>
+                    <puesto>
+                        <premioEuros>3,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press Champion +120</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>2,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press SubChampion +120</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press Third +120</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>110</nombreCategoria>
+                    <puesto>
+                        <premioEuros>3,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press Champion 110</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>2,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press SubChampion 110</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press Third 110</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>93</nombreCategoria>
+                    <puesto>
+                        <premioEuros>3,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press Champion 93</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>2,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press SubChampion 93</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press Third 93</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>83</nombreCategoria>
+                    <puesto>
+                        <premioEuros>3,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press Champion 83</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>2,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press SubChampion 83</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>WRPF World Bench Press Third 83</titulo>
+                    </puesto>
+                </categoria>
+
+            </categorias>
+
+
+        </competicion>
+    </record>
+
+
+    <record>
+        <atleta nacionalidadAtleta="Canadiense">
+            <nombreAtleta>Megan Gallager</nombreAtleta>
+            <edadAtleta>29 años</edadAtleta>
+            <catPeso>63 kg</catPeso>
+            <catEdad>Junior</catEdad>
+            <pesoLevantado>180 kg</pesoLevantado>
+            <movimiento>Sentadilla</movimiento>
+            <asociacion>
+                <nombreAsociacion>Strong Strong</nombreAsociacion>
+                <localizacion>Estados Unidos</localizacion>
+                <numMiembros>22</numMiembros>
+                <historias>
+                    <historia>
+                        Strong Strong nace de la mano de la propia Megan, quien buscaba una asociación para impulsar
+                        la práctica del powerlifting, principalmente en mujeres.
+                    </historia>
+
+                    <historia>
+                        La sede principal del club se encuentra en California. Es una asociación muy modesta que
+                        trata de popularizar este deporte generalmente a través de las redes sociales como, por ejemplo,
+                        Instagram.
+                    </historia>
+
+                    <historia>
+                        En ella se organizan varias actividades con el fin de incrementar la participación de mujeres
+                        en el powerlifting. Estas actividades van desde seminarios grupales para aprender sobre el
+                        deporte hasta entrenamientos conjuntos.
+                    </historia>
+                </historias>
+            </asociacion>
+        </atleta>
+        <competicion>
+            <nombreCompeticion>IPF American Championship</nombreCompeticion>
+            <lugar>Estados Unidos</lugar>
+            <fecha>25-02-2016</fecha>
+            <numParticipantes>50</numParticipantes>
+            <patrocinadores>
+                <patrocinador sector="Equipamiento powerlifting">
+                    <nombrePatrocinador>Rogue Fitness</nombrePatrocinador>
+                    <sede>EEUU</sede>
+                    <director>
+                        <nombreDirector>Nicolas</nombreDirector>
+                        <apellidoDirector>Wilfred</apellidoDirector>
+                        <nacionalidadDirector>Alemán</nacionalidadDirector>
+
+                    </director>
+                    <importe>1,000,000 €</importe>
+                </patrocinador>
+
+                <patrocinador sector="Equipamiento powerlifting">
+                    <nombrePatrocinador>Strength Shop</nombrePatrocinador>
+                    <sede>Inglaterra</sede>
+                    <director>
+                        <nombreDirector>Mamdouh</nombreDirector>
+                        <apellidoDirector>Elssbiay</apellidoDirector>
+                        <nacionalidadDirector>Egipcio</nacionalidadDirector>
+
+                    </director>
+                    <importe>300,500 €</importe>
+                </patrocinador>
+            </patrocinadores>
+
+
+            <categorias>
+                <categoria>
+                    <nombreCategoria>93</nombreCategoria>
+                    <puesto>
+                        <premioEuros>2,500 €</premioEuros>
+                        <titulo>IPF American 93 Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>IPF American 93 SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>IPF American 93 Third</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>83</nombreCategoria>
+                    <puesto>
+                        <premioEuros>2,500 €</premioEuros>
+                        <titulo>IPF American 83 Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>IPF American 83 SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>IPF American 83 Third</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>74</nombreCategoria>
+                    <puesto>
+                        <premioEuros>2,500 €</premioEuros>
+                        <titulo>IPF American 74 Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>IPF American 74 SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>IPF American 74 Third</titulo>
+                    </puesto>
+                </categoria>
+
+                <categoria>
+                    <nombreCategoria>63</nombreCategoria>
+                    <puesto>
+                        <premioEuros>2,500 €</premioEuros>
+                        <titulo>IPF American 63 Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>IPF American 63 SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>IPF American 63 Third</titulo>
+                    </puesto>
+                </categoria>
+
+
+                <categoria>
+                    <nombreCategoria>54</nombreCategoria>
+                    <puesto>
+                        <premioEuros>2,500 €</premioEuros>
+                        <titulo>IPF American 54 Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,500 €</premioEuros>
+                        <titulo>IPF American 54 SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>1,000 €</premioEuros>
+                        <titulo>IPF American 54 Third</titulo>
+                    </puesto>
+                </categoria>
+
+
+            </categorias>
+
+
+        </competicion>
+    </record>
+
+    <record>
+        <atleta nacionalidadAtleta="Inglés">
+            <nombreAtleta>Eddie Hall</nombreAtleta>
+            <edadAtleta>31 años</edadAtleta>
+            <catPeso>+120 kg</catPeso>
+            <catEdad>Senior</catEdad>
+            <pesoLevantado>500 kg</pesoLevantado>
+            <movimiento>Peso muerto</movimiento>
+            <asociacion>
+                <nombreAsociacion>Alive Legends</nombreAsociacion>
+                <localizacion>Inglaterra</localizacion>
+                <numMiembros>4</numMiembros>
+                <historias>
+                    <historia>
+                        La fundación de esta asociación es relativamente reciente (2014). A ella solo pertenecen
+                        aquellos atletas de fuerza que verdaderamente se lo merecen. Para ello, los miembros que
+                        ya pertenecen al club evalúan los resultados del atleta cadidato en las últimas competiciones.
+                    </historia>
+
+                    <historia>
+                        LaPor lo general, el número de miembros es bastante escaso, ya que pretenden seguir con su
+                        filosofía de que solo pertenecerán a ella aquellos levantadores que sean "dignos".
+                    </historia>
+
+                    <historia>
+                        Su edificio principal se encuentra en la ciudad de Stoke-on-Trent (comunmente conocida
+                        como Stoke), Inglaterra.
+                    </historia>
+                </historias>
+            </asociacion>
+        </atleta>
+        <competicion>
+            <nombreCompeticion>World Deadlift Championship</nombreCompeticion>
+            <lugar>Islandia</lugar>
+            <fecha>07-07-2016</fecha>
+            <numParticipantes>10</numParticipantes>
+            <patrocinadores>
+                <patrocinador sector="Equipamiento powerlifting">
+                    <nombrePatrocinador>Rogue Fitness</nombrePatrocinador>
+                    <sede>EEUU</sede>
+                    <director>
+                        <nombreDirector>Nicolas</nombreDirector>
+                        <apellidoDirector>Wilfred</apellidoDirector>
+                        <nacionalidadDirector>Alemán</nacionalidadDirector>
+
+                    </director>
+                    <importe>1,000,000 €</importe>
+                </patrocinador>
+
+                <patrocinador sector="Suplementación">
+                    <nombrePatrocinador>Protein Dynamix</nombrePatrocinador>
+                    <sede>Estados Unidos</sede>
+                    <director>
+                        <nombreDirector>Brian</nombreDirector>
+                        <apellidoDirector>Shaw</apellidoDirector>
+                        <nacionalidadDirector>Estadounidense</nacionalidadDirector>
+
+                    </director>
+                    <importe>400,000 € €</importe>
+                </patrocinador>
+
+                <patrocinador sector="Eventos deportivos">
+                    <nombrePatrocinador>Giants Live</nombrePatrocinador>
+                    <sede>Inglaterra</sede>
+                    <director>
+                        <nombreDirector>Zydrunas</nombreDirector>
+                        <apellidoDirector>Savickas</apellidoDirector>
+                        <nacionalidadDirector>Lituano</nacionalidadDirector>
+
+                    </director>
+                    <importe>860,000 €</importe>
+                </patrocinador>
+
+                <patrocinador sector="Suplementación">
+                    <nombrePatrocinador>Optimum Nutrition</nombrePatrocinador>
+                    <sede>EEUU</sede>
+                    <director>
+                        <nombreDirector>Michelle</nombreDirector>
+                        <apellidoDirector>Syvliakov</apellidoDirector>
+                        <nacionalidadDirector>Ruso</nacionalidadDirector>
+
+                    </director>
+                    <importe>780,000 €</importe>
+                </patrocinador>
+
+            </patrocinadores>
+
+
+            <categorias>
+                <categoria>
+                    <nombreCategoria>Open</nombreCategoria>
+                    <puesto>
+                        <premioEuros>10,000 €</premioEuros>
+                        <titulo>World Deadlift Champion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>5,000 €</premioEuros>
+                        <titulo>World Deadlift SubChampion</titulo>
+                    </puesto>
+
+                    <puesto>
+                        <premioEuros>3,500 €</premioEuros>
+                        <titulo>World Deadlift Third</titulo>
+                    </puesto>
+                </categoria>
+
+            </categorias>
+
+
+        </competicion>
+    </record>
+</records>

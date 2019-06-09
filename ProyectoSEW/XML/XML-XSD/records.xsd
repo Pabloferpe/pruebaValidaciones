@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema xmlns="http://tempuri.org/records" elementFormDefault="qualified" targetNamespace="http://tempuri.org/records" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="records">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="record" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="record">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="atleta" />
+        <xs:element ref="competicion" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="atleta">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombreAtleta" />
+        <xs:element ref="edadAtleta" />
+        <xs:element ref="catPeso" />
+        <xs:element ref="catEdad" />
+        <xs:element ref="pesoLevantado" />
+        <xs:element ref="movimiento" />
+        <xs:element ref="asociacion" />
+      </xs:sequence>
+      <xs:attribute name="nacionalidadAtleta" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="asociacion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombreAsociacion" />
+        <xs:element ref="localizacion" />
+        <xs:element ref="numMiembros" />
+        <xs:element ref="historias" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombreAsociacion" type="xs:string" />
+  <xs:element name="localizacion" type="xs:string" />
+  <xs:element name="numMiembros" type="xs:string" />
+  <xs:element name="historias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="historia" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="historia" type="xs:string" />
+  <xs:element name="nombreAtleta" type="xs:string" />
+  <xs:element name="edadAtleta" type="xs:string" />
+  <xs:element name="catPeso" type="xs:string" />
+  <xs:element name="cateEdad" type="xs:string" />
+  <xs:element name="catEdad" type="xs:string" />
+  <xs:element name="pesoLevantado" type="xs:string" />
+  <xs:element name="movimiento" type="xs:string" />
+  <xs:element name="competicion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombreCompeticion" />
+        <xs:element ref="lugar" />
+        <xs:element ref="fecha" />
+        <xs:element ref="numParticipantes" />
+        <xs:element ref="patrocinadores" />
+        <xs:element ref="categorias" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombreCompeticion" type="xs:string" />
+  <xs:element name="lugar" type="xs:string" />
+  <xs:element name="fecha" type="xs:string" />
+  <xs:element name="numParticipantes" type="xs:string" />
+  <xs:element name="patrocinadores">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="patrocinador" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="patrocinador">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombrePatrocinador" />
+        <xs:element ref="sede" />
+        <xs:element ref="director" />
+        <xs:element ref="importe" />
+      </xs:sequence>
+      <xs:attribute name="sector" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombrePatrocinador" type="xs:string" />
+  <xs:element name="sede" type="xs:string" />
+  <xs:element name="director">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombreDirector" />
+        <xs:element ref="apellidoDirector" />
+        <xs:element ref="nacionalidadDirector" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombreDirector" type="xs:string" />
+  <xs:element name="apellidoDirector" type="xs:string" />
+  <xs:element name="nacionalidadDirector" type="xs:string" />
+  <xs:element name="importe" type="xs:string" />
+  <xs:element name="categorias">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="categoria" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="categoria">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombreCategoria" />
+        <xs:element minOccurs="1" maxOccurs="unbounded" ref="puesto" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nombreCategoria" type="xs:string" />
+  <xs:element name="puesto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="premioEuros" />
+        <xs:element ref="titulo" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="premioEuros" type="xs:string" />
+  <xs:element name="titulo" type="xs:string" />
+</xs:schema>
